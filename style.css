@@ -20,13 +20,17 @@ section.schedule ul li { padding-bottom: 15px; }
     text-decoration: none;
     text-shadow: 5px 5px 10px black;
 }
-.logo img { width: 360px; }
+.logo img {
+    padding-top: 25px;
+    width: 360px;
+}
 .logo {
     display: inline-block;
     text-align: left;
     width: 40%;
 }
 .logo_info {
+    padding-top: 35px;
     vertical-align: top;
     text-align: center;
 }
@@ -79,7 +83,7 @@ span.free_enter {
     font-size: 40px;
     font-weight: bold;
     line-height: 40px;
-    color: #f90103;
+    color: #ee292a;
     transform: rotate(35deg);
     text-shadow: 1px 1px 4px black;
     position: absolute;
@@ -172,7 +176,9 @@ footer img {
 }
 @media (max-width: 768px) {
     .logo img { width: 270px; }
-    .logo_info { vertical-align: bottom; }
+    .logo_info {
+        margin: 40px;
+        vertical-align: bottom; }
     .logo_info, .logo_info a { font-size: 27px; }
     .logo_title { text-align: center; }
     .logo_title img { float: none; }
@@ -190,7 +196,9 @@ footer img {
         width: 100%;
         padding-right: 0;
     }
-    .logo img { width: 160px; }
+    .logo img {
+        margin-top: 0;
+        width: 160px; }
     .logo_info, .logo_info a { font-size: 20px; }
     .side_label span {
         font-size: 13px;
@@ -198,7 +206,9 @@ footer img {
         top: 2px;
         padding: 7px 10px 11px 33px;
     }
-    .logo_info { width: 62%; }
+    .logo_info {
+        margin: 0 0 0 0;
+        width: 62%; }
     .logo_title span { font-size: 40px; }
     .name_title {
         font-size: 35px;
@@ -235,7 +245,6 @@ footer img {
     }
     .logo_info {
         vertical-align: top;
-        margin-top: 20px;
     }
     .logo_info, .logo_info a { font-size: 16px; }
     section.schedule ul { font-size: 20px; }
