@@ -42,8 +42,8 @@ section.schedule ul li { padding-bottom: 15px; }
 }
 .side_label span {
     color: white;
-    font-size: 20px;
-    background: url("images/header_small.png") no-repeat;
+    font-size: 23px;
+    background: url("images/header_small2.png") no-repeat;
     background-size: 100% 100%;
     width: 150px;
     display: block;
@@ -79,7 +79,7 @@ span.free_enter {
     font-size: 40px;
     font-weight: bold;
     line-height: 40px;
-    color: #a45044;
+    color: #f90103;
     transform: rotate(35deg);
     text-shadow: 1px 1px 4px black;
     position: absolute;
@@ -126,6 +126,9 @@ section.schedule {
     font-weight: bold;
     text-decoration: underline;
     text-shadow: 0px 0px 10px white;
+    width: 50%;
+    margin: auto;
+    padding-right: 25%;
 }
 section.schedule ul {
     font-size: 30px;
@@ -183,6 +186,10 @@ footer img {
     .footer_mail { margin-top: 20px; }
 }
 @media (max-width: 480px) {
+    .schedule_date {
+        width: 100%;
+        padding-right: 0;
+    }
     .logo img { width: 160px; }
     .logo_info, .logo_info a { font-size: 20px; }
     .side_label span {
