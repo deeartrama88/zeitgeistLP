@@ -6,27 +6,27 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+section.schedule ul li { padding-bottom: 15px; }
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     box-sizing: border-box;
 }
 .logo_info, .logo_info a {
     display: inline-block;
-    font-size: 50px;
+    font-size: 42px;
     color: white;
     text-decoration: none;
     text-shadow: 5px 5px 10px black;
 }
-.logo img { width: 400px; }
+.logo img { width: 360px; }
 .logo {
     display: inline-block;
     text-align: left;
     width: 40%;
 }
 .logo_info {
-    width: 50%;
     vertical-align: top;
     text-align: center;
 }
@@ -55,7 +55,7 @@ body {
 }
 .logo_title span {
     font-size: 60px;
-    display: inline-block;
+    display: block;
     vertical-align: top;
     color: white;
     text-align: center;
@@ -68,6 +68,7 @@ body {
     float: right;
     position: relative;
     bottom: 20px;
+    display: none;
 }
 .enter {
     background: rgba(255, 255, 255, 0.9);
@@ -75,9 +76,9 @@ body {
 span.free_enter {
     display: inline-block;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 40px;
     color: #a45044;
     transform: rotate(35deg);
     text-shadow: 1px 1px 4px black;
@@ -92,7 +93,7 @@ span.free_enter {
     display: inline-block;
     text-align: center;
     width: 100%;
-    font-size: 55px;
+    font-size: 50px;
     color: black;
     text-shadow: 5px 5px 10px white;
     font-weight: bold;
@@ -151,7 +152,7 @@ footer img {
 }
 .footer_mail {
     display: block;
-    margin-top: 55px;
+    margin-top: 13px;
     font-size: 25px;
 }
 
@@ -164,6 +165,7 @@ footer img {
     }
     .logo { width: 35%; }
     .container { padding: 0 15px; }
+    .side_label span { top: 5px; }
 }
 @media (max-width: 768px) {
     .logo img { width: 270px; }
@@ -230,7 +232,6 @@ footer img {
     }
     .logo_info, .logo_info a { font-size: 16px; }
     section.schedule ul { font-size: 20px; }
-    section.schedule ul li { padding-bottom: 15px; }
 }
 @media (max-width: 360px) {
     .logo_title span { font-size: 27px; }
