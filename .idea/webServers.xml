@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="25ed2d33-2696-4778-b98b-5f4fceb1885b" name="tmz_old" url="http://bucks.dreamhost.com">
+        <fileTransfer host="bucks.dreamhost.com" port="21" password="dfecdff3dfdddfd3dff0dfe6dfcddff0" username="tzmukraine">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

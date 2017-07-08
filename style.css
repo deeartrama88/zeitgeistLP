@@ -6,7 +6,10 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-section.schedule ul li { padding-bottom: 15px; }
+section.schedule ul li {
+    position: relative;
+    padding-bottom: 15px; }
+
 .container {
     width: 100%;
     max-width: 1000px;
